@@ -1,0 +1,12 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description" :"template bucket",
+    "Resources":{
+        "myS3Bucket":{
+            "Type" : "AWS::S3::Bucket",
+            "Properties":{
+                "BucketName" : "naman1902202119975555555555"
+            }
+        }
+    }
+}
